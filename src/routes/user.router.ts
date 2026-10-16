@@ -4,3 +4,4 @@ export const userRoutes:Router = Router()
 
 userRoutes.get("",userController.getUsers)
 userRoutes.post("",userController.createUser)
+userRoutes.patch("/:id",userController.updateUser)
